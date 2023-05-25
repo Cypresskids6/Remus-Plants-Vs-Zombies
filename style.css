@@ -1,5 +1,5 @@
 h1 {
-    color: limegreen;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -10,7 +10,7 @@ h2 {
 
 
 h3 {
-    color: chartreuse;
+    color: rgb(7, 147, 0);
     font-size: larger;
     text-align: center;
 
@@ -44,7 +44,7 @@ div {
 
 body {
     text-align: center;
-    background-color: limegreen;
+    background-color: rgb(61, 224, 61);
 }
 
 #CrazyDaveIMG {
