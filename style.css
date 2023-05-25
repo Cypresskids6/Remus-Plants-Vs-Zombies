@@ -1,0 +1,256 @@
+h1 {
+    color: limegreen;
+}
+
+
+h2 {
+    color: aqua;
+    
+}
+
+
+h3 {
+    color: chartreuse;
+    font-size: larger;
+    text-align: center;
+
+}
+
+
+h4 {
+    color: lightblue;
+    font-size: larger;
+}
+
+
+h5 {
+    color: orange;
+    font-size: larger;
+}
+
+
+h6 {
+   color: dodgerblue;
+   font-size: larger;
+  
+}
+
+div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+body {
+    text-align: center;
+    background-color: limegreen;
+}
+
+#CrazyDaveIMG {
+    height:  300px;
+    animation: SpinIN 10s infinite linear;
+}
+    
+    
+@keyframes SpinIN {
+
+    0% {
+        transform: scale(0.1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(1800deg);
+    }
+    
+}
+
+
+#MarigoldIMG {
+ height: 300px;
+  animation: SpinIN 10s infinite linear reverse;
+ 
+}
+
+.marigold {
+    display: flex;
+    justify-content: center;
+}
+
+
+.crazydave {
+    display: flex;
+    justify-content: center;
+}
+
+
+.peashooter {
+    display: flex;
+    justify-content: center;
+}
+
+
+#peashooterIMG {
+    height: 300px;
+    animation: SpinIN 10s infinite linear ;
+}
+
+
+@keyframes SpinIN {
+
+    0% {
+        transform: scale(0.1)rotate(0deg);
+    }
+    100% {
+        transform: scale(1)rotate(1800);
+    }
+} 
+
+#pvz{
+ display: flex;
+ justify-content: center;
+ height: 300px;
+ animation: SpinIN 2s infinite linear reverse;
+}
+
+
+p {
+    font-size: 50px;
+}
+
+#wintermelon {
+    height: 300px;
+    animation: SpinIN 7s infinite linear reverse;
+}
+
+#twinsunflower {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+@keyframes SpinIN {
+        
+    0% {
+        transform: scale(0.1)rotate(0deg);
+    }
+    100% {
+        transform: scale(1)rotate(1800);
+    }
+}
+
+.twinsunflower {
+    display: flex;
+    justify-content: center;
+}
+
+#cobcannon {
+    height: 300px;
+    animation: SpinIN 7s infinite linear reverse;
+}
+
+#gatlingpea {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+.gatlingpea {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes SpinIN {
+
+ 0% {
+    transform:scale(0.1)rotate(0deg) ;
+ }
+ 100% {
+    transform: scale(1)rotate(1800);
+ }
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Sunflower {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#Reapeater {
+    height: 300px;
+    animation: SpinIN 1s infinite reverse;
+}
+
+@keyframes SpinIN {
+
+    0% {
+        transform: scale(0.1)rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1)rotate(1800);
+    }
+}
+
+#BlowerIMG {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#Snowpea {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#Chomper {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#ConeHeadzombie {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#Zombie {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#gargantchwar {
+    height: 300px;
+    animation: SpinIN 1s infinite linear reverse;
+}
+
+#ImpIMG {
+    height: 300px;
+    animation: SpinIN 2s infinite ease reverse;
+}
+
+#BucketHead {
+    height: 300px;
+    animation: SpinIN 3s infinite linear forwards;
+}
+
+#FootBallZombie {
+    height: 300px;
+    animation: SpinIN 1.5s infinite linear reverse;
+}
+
+#DiscoZombie {
+    height: 300px;
+    animation: SpinIN 2s infinite linear reverse;
+}
+
+
+.textDiv {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
